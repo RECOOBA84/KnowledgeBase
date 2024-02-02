@@ -1,5 +1,5 @@
 ---
-title: How to take a screenshot
+title: Cómo hacer una captura de pantalla
 sidebar_position: 5
 ---
 

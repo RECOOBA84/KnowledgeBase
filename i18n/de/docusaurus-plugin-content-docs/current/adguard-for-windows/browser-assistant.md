@@ -21,11 +21,11 @@ Hintergrundinformationen:
 
 In previous versions of the AdGuard Browser Extension (before v3.5), if you had it installed along with the AdGuard for Windows app, the extension took over the functions of Assistant, stopped filtering itself and relied on the app to do this.
 
-The extension and the app worked in conjunction but sometimes the integration would fail. Some websites would stop being protected by the desktop program and be backed up only by the less powerful extension.
+Die Erweiterung und die App funktionierten zusammen, aber manchmal schlug die Integration fehl. Einige Websites würden nicht mehr durch das Desktop-Programm geschützt werden, sondern nur noch durch die weniger leistungsfähige Erweiterung.
 
-When using the Browser Assistant, all these problems don’t matter as there can be no conflicts in essence. The role of the Browser Assistant is well-defined and it can’t hinder the functioning of the main app, so there is no need to worry.
+Bei der Verwendung des Browser-Assistenten spielen all diese Probleme keine Rolle, da es im Grunde genommen keine Konflikte geben kann. The role of the Browser Assistant is well-defined and it can’t hinder the functioning of the main app, so there is no need to worry.
 
-## Separate tab in Settings
+## Separater Tab in den Einstellungen
 
 The new Browser Assistant has its own tab in AdGuard for Windows settings, along with Stealth Mode, Browsing Security, Parental Control and others. There you will find a link to download the extension for your default browser. Außerdem gibt es ein Kontrollkästchen, um den alten Assistenten zu aktivieren.
 
@@ -33,10 +33,10 @@ The new Browser Assistant has its own tab in AdGuard for Windows settings, along
 
 ## Assistent für ältere Browser
 
-Legacy-Assistent ist die vorherige Version von Assistent, die lediglich ein Benutzerskript und keine Browsererweiterung ist. Basically, there are two cases when you might want to pick it instead of the new Browser Assistant:
+Legacy-Assistent ist die vorherige Version von Assistent, die lediglich ein Benutzerskript und keine Browsererweiterung ist. Es gibt im Wesentlichen zwei Fälle, in denen Sie ihn anstelle des neuen Browser-Assistenten verwenden sollten:
 
-1. The new Assistant is not available for your browser.
-1. You are used to the green shield icon and want to leave things as they were.
+1. Der neue Assistent ist für Ihren Browser nicht verfügbar.
+1. Sie sind an das grüne Schild-Symbol gewöhnt und wollen alles beim Alten lassen.
 
 ## Wie man AdGuard Browser-Assistenten installiert
 

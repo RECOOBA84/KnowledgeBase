@@ -177,6 +177,12 @@ modifiers = [modifier0, modifier1[, ...[, modifierN]]]
 - **`^`** — указатель для разделительного символа. Разделителем может быть любой символ кроме буквы, цифры и следующих символов: `_` `-` `.` `%`. Например, в адресе `http:`**`//`**`example.com`**`/?`**`t=1`**`&`**`t2=t3` жирным выделены разделительные символы. Конец адреса также принимается в качестве разделителя.
 - **`|`** — указатель на начало или конец адреса. Значение зависит от расположения символов в маске. Например, правило `swf|` соответствует `http://example.com/annoyingflash.swf`, но не `http://example.com/swf/index.html`. `|http://example.org` соответствует `http://example.org`, но не `http://domain.com?url=http://example.org`.
 
+:::note
+
+`|`, `||`, `^` can only be used with rules that have a URL pattern. For example, `||example.com##.advert` is incorrect and will be ignored by the blocker.
+
+:::
+
 :::note Визуальное представление
 
 Рекомендуем также прочитать [шпаргалку по фильтрам от Adblock Plus](https://adblockplus.org/filter-cheatsheet#blocking), чтобы лучше понять, как строятся такие правила.
@@ -1258,7 +1264,7 @@ $cookie [= name[; maxAge = seconds [; sameSite = strategy ]]]
 
 :::note
 
-Слово «сегмент» в окументации означает Media Segment или playlist (как часть Master Playlist): с точки зрения правил `$hls`, Master Playlist и Media Playlist неразличимы.
+Слово segment в документации означает Media Segment или playlist (как часть Master Playlist): с точки зрения правил `$hls`, Master Playlist и Media Playlist неразличимы.
 
 :::
 
@@ -2988,7 +2994,7 @@ subject:nth-ancestor(n)
 subject:nth-ancestor(n)
 ```
 
-- `subject` — обязателен. Стандартный или расширенный CSS-селектор
+- `subject` — required, standard or extended CSS selector
 - `n` — обязателен. Число >= 1 и < 256, расстояние до нужного родителя от элемента, выбранного `subject`
 
 ##### Ограничения `:nth-ancestor()` {#extended-css-nth-ancestor-limitations}

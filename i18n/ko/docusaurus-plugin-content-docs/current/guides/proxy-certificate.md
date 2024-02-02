@@ -7,7 +7,7 @@ sidebar_position: 2
 
 :::note
 
-These devices must be in the same network as the PC or Mac on which AdGuard is installed.
+기기와 AdGuard가 설치된 PC 또는 Mac이 동일한 네트워크에 있어야 합니다.
 
 :::
 
